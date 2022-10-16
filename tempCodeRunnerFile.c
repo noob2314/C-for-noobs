@@ -1,17 +1,17 @@
 #include <stdio.h>
 void main()
 {
-    int a,b;
+    int c,b;
     
-    printf("enter the value of a:");
-    scanf("%d",&a);
+    printf("enter the value of c:");
+    scanf("%d",&c);
     
     printf("enter the value of b:");
     scanf("%d",&b);
     
-    a=a+b;
-    b=a-b;
-    a=a-b;
+    c=c+b;
+    b=c-b;
+    c=c-b;
     
-    printf("after swapping two values a = %d, b= %d",a,b);
+    printf("after swapping two values c = %d, b= %d",c,b);
 }
